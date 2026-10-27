@@ -1,0 +1,243 @@
+{
+  "site": {
+    "name": "The Wolf Among Us Remastered Wiki",
+    "shortName": "The Wolf Among Us Remastered",
+    "tagline": "Fan-Wiki",
+    "description": "Fan-Wiki zu The Wolf Among Us Remastered — dem Telltale-Noir-Remaster: Story-Guides, Charaktere, Entscheidungen, Noir Mode und Erfolge.",
+    "legalNotice": "Inoffizielle Fan-Wiki. Nicht mit Telltale Games verbunden."
+  },
+  "nav": {
+    "guides": "Guides",
+    "story": "Story",
+    "characters": "Charaktere",
+    "tips": "Tipps",
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln"
+  },
+  "home": {
+    "meta": {
+      "title": "The Wolf Among Us Remastered Wiki: Story & Entscheidungen",
+      "description": "Die The-Wolf-Among-Us-Remastered-Wiki — Release-Termin und Plattformen, komplette Story- und Kapitel-Guides, Bigby und die Rollen, Entscheidungen und Noir Mode."
+    },
+    "hero": {
+      "eyebrow": "29. Oktober 2026",
+      "title": "The Wolf Among Us Remastered",
+      "description": "Märchen sind real. Mord ist erst der Anfang. Telltales preisgekröntes Noir-Abenteuer kehrt am 29. Oktober 2026 auf PC und Konsolen zurück — Bigby Wolf, Sheriff eines verborgenen Fabletown, remasterte Optik, die komplette Fünf-Episoden-Staffel und der neue schwarz-weiße Noir Mode. Dieses Wiki deckt die ganze Fallakte ab: Story und Kapitel, Bigby und die Rollen, jede Entscheidung, die zählt, und was das Remaster verbessert.",
+      "primaryCta": "Den kompletten Guide lesen",
+      "secondaryCta": "Trailer ansehen",
+      "tertiaryCta": "Alle Guides",
+      "stats": ["29. Okt. 2026", "PC & Konsolen", "Alle 5 Episoden", "Neuer Noir Mode"]
+    },
+    "updates": {
+      "title": "Fallakte",
+      "browse": "Alle Guides ansehen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Neu in Fabletown?",
+      "title": "Dein erster Gang durch diese Straßen",
+      "cards": [
+        { "number": "1", "title": "Kenne das Spiel", "description": "Ein interaktives Noir — Aufmerksamkeit und Entscheidung, kein Kampf. Spiele es wie einen großen Krimi: nachts, in Ordnung, in Ruhe." },
+        { "number": "2", "title": "Entscheide als Bigby", "description": "Das Spiel fragt, was der Sheriff tut — nicht, was du tun würdest. Committe auf eine Version des Wolfs und lass Konsequenz sie bauen." },
+        { "number": "3", "title": "Vertraue dem Timer", "description": "Zeitbegrenzte Entscheidungen sind die Seele des Spiels — eine schnelle ehrliche Antwort schlägt eine langsame perfekte." },
+        { "number": "4", "title": "Wähle deinen Look", "description": "Original-Farben oder Noir Modes Schwarz-Weiß — beides sind vollständige Präsentationen. Nimm den anderen im zweiten Durchgang." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Diese Woche am häufigsten gelesen",
+      "title": "Jetzt im Trend",
+      "quickLinks": ["Story", "Bigby", "Entscheidungen", "Noir"],
+      "cards": [
+        { "title": "Alles, was wir wissen", "description": "Der komplette Guide — Release-Termin, Plattformen, was das Remaster verbessert und wie es in die Serie passt." },
+        { "title": "Bigby Wolf", "description": "Der Große Böse Wolf als Fabletown-Sheriff — Geschichte, Fähigkeiten, Temperament und die Kernfrage der Staffel." },
+        { "title": "Entscheidungs-Guide", "description": "Welche Entscheidungen zählen, wie Bigbys Temperament die Story prägt und wie das Ende deine Akte zurückliest." },
+        { "title": "Noir Mode", "description": "Die Signature-Ergänzung des Remasters erklärt — was sie ändert, wie man sie aktiviert und die Erfolge darum." }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist The Wolf Among Us Remastered?",
+      "paragraphs": [
+        "The Wolf Among Us Remastered ist Telltale Games' Remaster des Noir-Abenteuers von 2013-2014 — Bigby Wolf, der Große Böse Wolf, nun Sheriff von Fabletown, einer verborgenen Manhattan-Community exilierter Märchengestalten, der einen Mord untersucht, der die Glamour-Unterwelt der Stadt ans Licht zieht. Fünf Episoden, Entscheidungen mit Gewicht und eine der besten geschriebenen Geschichten des Mediums.",
+        "Das Remaster bringt sie am 29. Oktober 2026 als definitive Edition zurück: remasterte Optik, die komplette Staffel in einem Paket und der neue Noir Mode, der die ganze Geschichte in markantem Schwarz-Weiß spielt. Dieses Wiki deckt die Fallakte komplett ab — Story und Kapitel, die Rollen, jede Entscheidung und ihre Folgen."
+      ],
+      "stats": [
+        { "label": "Entwickler", "value": "Telltale Games" },
+        { "label": "Release", "value": "29. Okt. 2026" },
+        { "label": "Plattformen", "value": "PC & Konsolen" },
+        { "label": "Episoden", "value": "5 komplett" },
+        { "label": "Neuer Modus", "value": "Noir Mode" },
+        { "label": "Protagonist", "value": "Bigby Wolf" }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Die ganze Fallakte, kartiert",
+      "description": "Guides, Story, Charaktere und Tipps — die komplette Akte.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Alles, was wir wissen",
+          "description": "Der komplette Guide zum Remaster.",
+          "href": "/guide/wolf-among-us-remastered-guide",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "29.10.2026", "detail": "PC und Konsolen — das definitive Fabletown, mit Noir Mode", "badge": "Release" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Neu-Spieler-Primer",
+          "description": "Erstmals in Fabletown.",
+          "href": "/guide/new-player-primer",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Ein interaktives Noir — Aufmerksamkeit und Wahl sind das Spiel" },
+            { "label": "2", "detail": "Entscheidungen formen Bigby, nicht nur Szenen" },
+            { "label": "3", "detail": "Konsultiere den Entscheidungs-Guide zwischen Episoden, nie während" }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Die Story",
+          "description": "Fabletown, Glamours und der Fall.",
+          "href": "/story/story-so-far",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Märchen im Exil — die verborgene Manhattan-Community" },
+            { "label": "2", "detail": "Die Glamour-Ökonomie — Verzweiflung als Noirs Motor" },
+            { "label": "3", "detail": "Der Mord, der Bigbys Ermittlung eröffnet" }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Kapitel-Guide",
+          "description": "Alle fünf Episoden kartiert.",
+          "href": "/story/chapters",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Cry Wolf — die Abrechnung und die Ending-Variationen" },
+            { "label": "A", "detail": "Faith & A Crooked Mile — Eröffnung und Ausweitung" },
+            { "label": "B", "detail": "Smoke and Mirrors — die Verhör-Episode" },
+            { "label": "C", "detail": "In Sheep's Clothing — das stille Vorbereitungskapitel" }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Bigby Wolf",
+          "description": "Der böse Sheriff, profiliert.",
+          "href": "/characters/bigby-wolf",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🐺", "detail": "Der Wolf der Geschichten — einer von Fabletowns stärksten" },
+            { "label": "🎖", "detail": "Der Sheriff — das reformierte Monster vollzieht das Gesetz" },
+            { "label": "🔥", "detail": "Das Temperament — Gewalt als Wahl, die ganze Staffel verfolgt" }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Fabletown-Rollen",
+          "description": "Jede wichtige Figur.",
+          "href": "/characters/characters-cast",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "❄", "detail": "Snow White — das Rückgrat der Stadt und Bigbys Gewissen" },
+            { "label": "📋", "detail": "Crane, Beauty & Beast, Toad — die Gesichter der Community" },
+            { "label": "🎭", "detail": "Die Unterwelt — die Schattenökonomie des Crooked Man" }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Entscheidungs-Guide",
+          "description": "Jede Entscheidung, die zählt.",
+          "href": "/tips/choices-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Gnade gegen Gewalt — das Gewaltdial, das das Spiel verfolgt" },
+            { "label": "2", "detail": "Wen du schützt — ausgegebene Geheimnisse bringen den Fall voran" },
+            { "label": "3", "detail": "Das Finale — die Staffel liest deine ganze Akte zurück" }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Noir Mode & Erfolge",
+          "description": "Die Signature-Ergänzung, entschlossen.",
+          "href": "/tips/noir-mode-achievements",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🖤", "detail": "Noir Mode — die Staffel im Detektivfilm-Schwarz-Weiß" },
+            { "label": "🏆", "detail": "Erfolge — Story-Rückgrat, Entscheidungs-Trophäen, Gründlichkeit" },
+            { "label": "🔁", "detail": "Der zweite Durchgang — anderer Modus, anderer Wolf, dieselbe Story" }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufige Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zum Remaster.",
+      "items": [
+        { "question": "Wann erscheint The Wolf Among Us Remastered?", "answer": "Am 29. Oktober 2026 für PC (Steam) und Konsolen, wobei PlayStation laut Ankündigung bereits am Abend des 28. Oktober pazifischer Zeit freischaltet. Termin und Noir Mode wurden auf der gamescom 2026 enthüllt." },
+        { "question": "Was enthält das Remaster?", "answer": "Die komplette Original-Staffel — alle fünf Episoden von Faith bis Cry Wolf — mit remasterter Optik, moderner Performance und dem neuen schwarz-weißen Noir Mode. Story, Entscheidungen und Struktur sind die gefeierten Originale." },
+        { "question": "Ist es dasselbe wie The Wolf Among Us 2?", "answer": "Nein — das Remaster ist die Staffel 2013-2014, neu gebaut. The Wolf Among Us 2 ist die separat entwickelte Fortsetzung. Das Remaster ist der definitive Weg, für die Fortsetzung auf dem Stand zu sein." },
+        { "question": "Soll ich im ersten Durchgang im Noir Mode spielen?", "answer": "Wirklich Geschmackssache — Noir Modes Schwarz-Weiß ist atmosphärisch und markant; die Original-Farben definieren die Identität des Spiels. Beide sind vollständig; die meisten starten farbig und heben sich Noir für den zweiten Durchgang auf." }
+      ]
+    },
+    "finalCta": {
+      "title": "Die Straßen warten, Sheriff.",
+      "description": "Release-Infos, die komplette Story, jede Entscheidung, die zählt, und der definitive Rollen-Guide — die komplette Fallakte für deinen Gang durch Fabletown.",
+      "primary": "Den kompletten Guide lesen",
+      "secondary": "Offizielle Telltale-Seite"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navigation",
+    "activeCodes": "Fallakte",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Guides ansehen",
+    "inThisSection": "In dieser Sektion",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Hilfe nötig?",
+    "relatedReading": "Weiterlesen",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Bald wieder vorbeischauen!"
+  },
+  "footer": {
+    "aboutTitle": "Wolf Remastered Wiki",
+    "about": "Wolf Remastered Wiki ist eine unabhängige Fan-Wiki zu The Wolf Among Us Remastered, Telltale Games' Remaster des preisgekrönten Noir-Abenteuers — Story- und Kapitel-Guides, Charakterprofile, Entscheidungsfolgen und Noir Mode.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Wolf Remastered Wiki. Nicht mit Telltale Games verbunden. The Wolf Among Us und alle zugehörigen Marken sind Eigentum von Telltale Games.",
+    "description": "Die The-Wolf-Among-Us-Remastered-Wiki — Story, Charaktere, Entscheidungen und Noir Mode zu Telltales Noir-Remaster.",
+    "playGame": "Steam-Seite",
+    "officialDiscord": "Community",
+    "officialYoutube": "Telltale",
+    "epicStore": "Steam",
+    "beginnerGuide": "Kompletter Guide",
+    "mapGuides": "Kapitel-Guide",
+    "weaponsGuides": "Bigby Wolf",
+    "buildGuide": "Entscheidungs-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "guide": {
+    "overviewTitle": "Remaster-Guides",
+    "overviewDescription": "Alle The-Wolf-Among-Us-Remastered-Guides — der komplette Release-Überblick und der Primer für deinen ersten Gang durch Fabletown."
+  },
+  "story": {
+    "overviewTitle": "Story & Kapitel",
+    "overviewDescription": "Die Story von The Wolf Among Us Remastered — das Fabletown-Setup, die Glamour-Ökonomie und alle fünf Episoden von Faith bis Cry Wolf kartiert."
+  },
+  "characters": {
+    "overviewTitle": "Charaktere",
+    "overviewDescription": "Die Rollen von The Wolf Among Us Remastered — Bigby Wolf vertieft und jede wichtige Fabel Fabletowns, von Snow White bis zur Unterwelt des Crooked Man."
+  },
+  "tips": {
+    "overviewTitle": "Entscheidungen & Extras",
+    "overviewDescription": "Der Entscheidungs- und Folgen-Guide plus Noir Mode, Erfolge und Sammlbares — alles, was dir deinen Spielstil zurückliest."
+  }
+}
