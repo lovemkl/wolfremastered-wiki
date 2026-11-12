@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from "@/config/navigation";
 import { routing, type Locale } from "@/i18n/routing";
+import manifestData from "../../content-manifest.json";
 
 // 从统一配置导入内容类型
 export const CONTENT_TYPES = CONFIG_CONTENT_TYPES;
@@ -138,6 +139,13 @@ function getHeadingsFromFile(filePath: string): Heading[] {
  * 辅助函数：递归获取目录下所有 MDX 文件的 slug 路径
  */
 function getSlugsFromDirectory(dir: string, basePath: string[] = []): string[][] {
+  // Workers 运行时 fs.readdirSync 不可用——优先读构建时生成的内容清单
+  const dirParts = dir.split("/");
+  const mLang = dirParts[dirParts.length - 2];
+  const mCt = dirParts[dirParts.length - 1];
+  const mSlugs = (manifestData as Record<string, Record<string, string[]>>)?.[mLang]?.[mCt];
+  if (mSlugs?.length) return mSlugs.map((s) => [s]);
+
   if (!fs.existsSync(dir)) return [];
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   const paths: string[][] = [];
