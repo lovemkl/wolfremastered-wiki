@@ -377,16 +377,17 @@ export function getDynamicNavigation(language: Locale = "en"): NavGroup[] {
  * 获取所有内容路径（用于 generateStaticParams）
  */
 export async function getAllContentPaths(language: Locale) {
+  const loc = (manifestData as Record<string, Record<string, string[]>>)?.[language];
+  if (loc && Object.keys(loc).length) {
+    return Object.entries(loc).flatMap(([ct, slugs]) => slugs.map((slug) => ({ contentType: ct, slug: [slug] })));
+  }
   const localeDir = path.join(CONTENT_ROOT, language);
   if (!fs.existsSync(localeDir)) return [];
-
   const entries = fs.readdirSync(localeDir, { withFileTypes: true });
   const contentTypeDirs = entries.filter((entry) => entry.isDirectory());
-
   const paths = contentTypeDirs.flatMap((entry) => {
     const segments = getSlugsFromDirectory(path.join(localeDir, entry.name));
     return segments.map((slug) => ({ contentType: entry.name, slug }));
   });
-
   return paths;
 }
